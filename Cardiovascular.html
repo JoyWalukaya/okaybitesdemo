@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OkayBites • Cardiovascular</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <main>
+  <section class="landing">
+      <header>
+    <h1>OkayBites Cardiovascular</h1>
+      <style>
+    h1 {
+      font-size: 60px; 
+      text-align: center;
+      margin: 0;
+    }
+  </style>
+  <button onclick="toggleDarkMode()" id="darkModeBtn">Toggle Dark Mode</button>
+
+  </header>
+    
+        <nav>
+           <a href="#"><img src="okayimages/okaylogo.jpg" alt="mylogo" class="logo"></a>
+           <div class="links">
+               <i class="fa fa-times"></i>
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="#fruits">Fruits</a></li>
+                   <li><a href="#vegetables">Vegetables</a></li>
+                   <li><a href="#proteins">Proteins</a></li>
+                   <li><a href="#wholegrains">Wholegrains</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars"></i>
+        </nav>
+
+    <h2 id="fruits">🍎 Fruits </h2>
+<div class="food-grid">
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/stawberries.jpeg" alt="Strawberries">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Rich in antioxidants<br>Reduces plaque buildup</div>
+    </div>
+    <h3>Strawberries</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/avocados.jpeg" alt="Avocado">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">High in monounsaturated fats<br>Lowers bad cholesterol</div>
+    </div>
+    <h3>Avocado</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/apples.jpeg" alt="Apple">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Soluble fiber<br>Helps clear arteries</div>
+    </div>
+    <h3>Apple</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/orange.jpeg" alt="Orange">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Contains hesperidin<br>Supports heart rhythm</div>
+    </div>
+    <h3>Orange</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/bananas.jpeg" alt="Banana">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Potassium-rich<br>Helps heartbeat regulation</div>
+    </div>
+    <h3>Bananas</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/grapes.jpeg" alt="Grapes">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Polyphenols improve blood flow</div>
+    </div>
+    <h3>Grapes</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+   <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/pomegranates.jpeg" alt="Pomegranates">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Lowers arterial inflammation<br>Rich in antioxidants</div>
+    </div>
+    <h3>Pomegranates</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+   <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/pear.jpeg" alt="Pear">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">High fiber<br>Supports heart and digestive health</div>
+    </div>
+    <h3>Pear</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+ </div>
+<h2 id="vegetables">🥬Vegetables</h2>
+<div class="food-grid">
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/spinach.jpeg" alt="Spinach">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Folate and potassium for heart function</div>
+    </div>
+    <h3>Spinach</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/Kales.png" alt="Kale">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Vitamin K and omega-3s<br>Reduces arterial calcification</div>
+    </div>
+    <h3>Kale</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/brocolli.jpeg" alt="Brocolli">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Rich in fiber<br>Reduces LDL</div>
+    </div>
+    <h3>Brocolli</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/beetroot.jpeg" alt="Beetroot">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Improves circulation<br>Lowers heart strain</div>
+    </div>
+    <h3>Beetroot</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/carrots.jpeg" alt="Carrots">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Antioxidants protect heart tissue</div>
+    </div>
+    <h3>Carrots</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/Cauliflower.png" alt="Cauliflower">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Anti-inflammatory<br>Supports vessel health</div>
+    </div>
+    <h3>Cauliflower</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+   <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/tomatoes.png" alt="tomatoes">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Lycopene-rich<br>Protects against heart disease</div>
+    </div>
+    <h3>Tomato</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+   <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/green beans.jpeg" alt="Green beans">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Potassium and fiber support blood pressure control</div>
+    </div>
+    <h3>Green beans</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+ </div>
+ <h2 id="proteins">🍗 Proteins</h2>
+<div class="food-grid">
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/salmon.jpeg" alt="salmon">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Rich in omega-3s<br>Lowers triglycerides</div>
+    </div>
+    <h3>Salmon</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/beans.jpeg" alt="Beans">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">High in fiber<br>Reduces LDL and inflammation</div>
+    </div>
+    <h3>Beans</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/tofu.png" alt="Tofu">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">	Plant protein<br>Cholesterol-free</div>
+    </div>
+    <h3>Tofu</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/skinlesschickenbreast.jpeg" alt="skinlesschickenbreast">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Lean protein<br>Less saturated fat</div>
+    </div>
+    <h3>Skinless Chickenbreast</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/lentils.jpeg" alt="lentils">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Reduce artery stiffness<br>Fiber-rich</div>
+    </div>
+    <h3>Lentils</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/lowfatmilk.png" alt="lowfatdairy">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Supports calcium levels<br>Avoids excess fat</div>
+    </div>
+    <h3>Low fat milk</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+   <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/nuts.jpeg" alt="nuts">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Good fats<br>Reduces heart risk</div>
+    </div>
+    <h3>Nuts(unsalted)</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+   <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/eggs.jpeg" alt=" Eggs">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">	Protein source<br>Low in saturated fat if boiled</div>
+    </div>
+    <h3>Eggs</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+ </div>
+ <h2 id="wholegrains">🌾Whole grains</h2>
+<div class="food-grid">
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/oats.jpeg" alt="oats">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Lowers cholesterol<br>Rich in beta-glucan</div>
+    </div>
+    <h3>Oats</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/brownrice.jpeg" alt="Brownrice">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Whole grain<br>Heart-healthy fiber</div>
+    </div>
+    <h3>Brownrice</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/quinoa.jpeg" alt="Quinoa">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Complete protein<br>Magnesium-rich</div>
+    </div>
+    <h3>Quinoa</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/barley.jpeg" alt="Barley">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Improves cholesterol and blood pressure</div>
+    </div>
+    <h3>Barley</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/wholewheatbread.jpeg" alt="wholewheatbread">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Better than refined carbs<br>Heart-supportive</div>
+    </div>
+    <h3>Whole wheat bread</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/millet.jpeg" alt="Millet">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Antioxidants and magnesium support arteries</div>
+    </div>
+    <h3>Millet</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+   <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/sorghum.png" alt="Sorghum">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Reduces inflammation and cholesterol</div>
+    </div>
+    <h3>Sorghum</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+   <div class="food-card">
+    <div class="image-container">
+      <img src="okayimages/githeri.png" alt="whole grain maize">
+      <span class="info-icon" onclick="toggleBenefit(this)">?</span>
+      <div class="nutritional-benefit">Fiber-rich<br>Good alternative to refined carbs</div>
+    </div>
+    <h3>Whole maize(githeri)</h3>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+ </div> 
+ </main>
+<script>
+  function toggleBenefit(icon) {
+    const benefitBox = icon.nextElementSibling;
+    benefitBox.style.display = (benefitBox.style.display === "block") ? "none" : "block";
+  }
+  function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+  }
+</script>
+
+
+  <footer class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2025 OkayBites. All rights reserved.</p>
+    <p>Contact us: <a href="mailto:walukayajoy@gmail.com">walukayajoy@gmail.com</a></p>
+    <p>Passionate about health and wellness for all.</p>
+  </div>
+</footer>
+
+</body>
+</html>
