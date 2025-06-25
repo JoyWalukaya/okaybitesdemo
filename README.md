@@ -33,7 +33,7 @@
 
 ## 🚀 How to Use
 
-1. Visit the live site: [OkayBites on Netlify](https://your-netlify-url.netlify.app)
+1. Visit the live site: [OkayBites on Netlify](https://okaybitesdemo.netlify.app/)
 2. Choose a health condition (Diabetes, Hypertension, or Cardiovascular)
 3. Browse through categorized food items
 4. Hover over the **"Nutritional Benefit"** button to learn more
