@@ -1,47 +1,61 @@
+# 🍽️ OkayBites
 
-## 1. Overview
+**OkayBites** is a health-focused food browsing platform that helps users with **Diabetes**, **Hypertension**, and **Cardiovascular Disease** explore foods tailored to their dietary needs.
 
-A static multi‑page prototype for OkayBites:
-
-* **Home** – Introduction and business goals
-* **Menu** – Three health‑focused meal categories with “Add to Cart” functionality
-* **Contact** – Simple form emailing to [walukayajoy@gmail.com](mailto:walukayajoy@gmail.com)
-
-Built with HTML5, CSS3, JavaScript, and deployed via Netlify.
+🌐 [Live Site](https://okaybitesdemo.netlify.app/)
 
 ---
 
-## 2. Features
+## 📌 Features (Current Version)
 
-* **Responsive Design**: Mobile‑friendly layouts and navigation
-* **Semantic HTML**: `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`
-* **Interactive JS**: `addToCart()` stores items in `localStorage` and shows alerts
-* **Contact Form**: `mailto:` form submission
-
----
-
-## 3. File Structure
-
-```
-okaybites-site/
-├── index.html       ← Home page  
-├── menu.html        ← Menu page  
-├── contact.html     ← Contact page  
-├── style.css        ← Shared styles  
-└── script.js        ← Shared JS logic  
-```
+- 🎯 Condition-based food navigation:
+  - Diabetes
+  - Hypertension
+  - Cardiovascular Disease
+- 🥗 Food categorized into:
+  - Fruits
+  - Vegetables
+  - Proteins
+  - Whole Grains
+- 📋 Hover tooltips show **nutritional benefits** based on the selected condition
+- 🖱️ "Add to Cart" buttons for each food item (not yet functional)
 
 ---
 
+## 🛠️ Tech Stack
 
-
-
-## 4. Next Steps
-
-* Implement a dynamic cart page.
-* Integrate real payment gateway.
-* Fetch product data from an API.
-* Enhance styling and animations and add more food
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Netlify** (for deployment)
 
 ---
+
+## 🚀 How to Use
+
+1. Visit the live site: [OkayBites on Netlify](https://your-netlify-url.netlify.app)
+2. Choose a health condition (Diabetes, Hypertension, or Cardiovascular)
+3. Browse through categorized food items
+4. Hover over the **"Nutritional Benefit"** button to learn more
+5. Click "Add to Cart" (feature coming soon)
+
+---
+
+## 🔮 Planned Features (Coming Soon)
+
+- 🛒 Fully functional **cart and checkout system**
+- 💰 **Expense tracker** to view daily and past payments
+- 📄 Export reports of food purchases
+- 🔄 Backend integration with MongoDB and REST API
+- ⚙️ React-based frontend for dynamic interactions
+
+---
+
+## ✍️ Author
+
+**Joy Walukaya**  
+- 💼 [GitHub](https://github.com/JoyWalukaya)
+
+---
+
 
